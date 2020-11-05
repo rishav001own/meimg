@@ -1,5 +1,6 @@
 import React from 'react';
 import './signup.css'
+import {Link} from "react-router-dom"
 const signup = () => {
     return (
         <div className="signup_card">
@@ -28,9 +29,12 @@ const signup = () => {
                     placeholder="Enter your Password here"
                     className="validate"/>
                 </div>
-                <button className="btn waves-effect waves-light" type="submit" name="action">Login
-                    <i className="material-icons right">send</i>
+                <button className="btn waves-effect waves-light" type="submit" name="action">Create Account
+                    <i className="material-icons right">login</i>
                 </button>
+                <h5>
+                    <Link to="/login">Already Have Account</Link>
+                </h5>
             </div>
         </div>
     );
