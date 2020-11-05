@@ -8,12 +8,11 @@ const login = () => {
                 <h2>MeImg</h2>
                 <h4>Waiting To See You In</h4>
                 <div className="e_mail">
-                <input
-                id="email"
-                type="email"
-                placeholder="Input your E-mail here"
-                className="validate"
-                />
+                    <input
+                    id="email"
+                    type="email"
+                    placeholder="Input your E-mail here"
+                    className="validate"/>
                 </div>
                 <div className="passwords">
                     <input
@@ -23,7 +22,7 @@ const login = () => {
                     className="validate"/>
                 </div>
                 <button className="btn waves-effect waves-light" type="submit" name="action">Login
-                    <i className="material-icons right">send</i>
+                    <i className="material-icons right">SignUp</i>
                 </button>
             </div>
         </div>
