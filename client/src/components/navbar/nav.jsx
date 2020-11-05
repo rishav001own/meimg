@@ -5,11 +5,11 @@ const Nav = () => {
   return (
     <nav>
     <div className="nav-wrapper white">
-      <a href="fsg" className="brand-logo">Logo</a>
+      <a href="/" className="brand-logo"> MeImg</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li><a href="sass.html">Login</a></li>
-        <li><a href="badges.html">SignUp</a></li>
-        <li><a href="collapsible.html">Profile</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/signup">SignUp</a></li>
+        <li><a href="/profile">Profile</a></li>
       </ul>
     </div>
   </nav>
