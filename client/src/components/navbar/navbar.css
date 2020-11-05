@@ -1,7 +1,9 @@
 a{
     color: black !important;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 nav .brand-logo{
     position: relative;
     left:10px;
+    
 }
